@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img">
   <title>菜单栏菜单示意</title>
-  <rect width="900" height="330" fill="#F8FAFC"/>
+  <rect width="900" height="430" fill="#F8FAFC"/>
 
   <rect x="0" y="0" width="900" height="30" fill="#E9EEF4"/>
   <text x="24" y="20" font-family="-apple-system, sans-serif" font-size="12" fill="#475569">访达</text>
@@ -14,35 +14,48 @@
   <text x="851" y="20" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">⇥</text>
 
   <g font-family="-apple-system, 'PingFang SC', sans-serif">
-    <rect x="600" y="42" width="270" height="256" rx="10" fill="#FFFFFF" stroke="#D8E0E8" stroke-width="1"/>
+    <rect x="600" y="42" width="270" height="352" rx="10" fill="#FFFFFF" stroke="#D8E0E8" stroke-width="1"/>
 
     <text x="620" y="70" font-size="13" fill="#0F172A">已启用</text>
-    <text x="620" y="96" font-size="13" font-weight="600" fill="#047857">权限：已授权 ✓</text>
-    <text x="620" y="118" font-size="11" fill="#94A3B8">生效：ego lite / Chrome / Edge</text>
-    <text x="620" y="134" font-size="11" fill="#94A3B8">　　　Brave / Vivaldi / Firefox / Safari</text>
+    <text x="620" y="94" font-size="13" font-weight="600" fill="#047857">权限：已授权 ✓</text>
+    <text x="620" y="116" font-size="11" fill="#94A3B8">当前：Safari（已适配 · 42px）</text>
+    <text x="620" y="134" font-size="11" fill="#94A3B8">今日已关闭 12 个（累计 348）</text>
 
     <line x1="616" y1="148" x2="854" y2="148" stroke="#E6EDF3" stroke-width="1"/>
 
-    <text x="620" y="172" font-size="13" fill="#334155">打开辅助功能设置…</text>
-    <text x="620" y="196" font-size="13" fill="#334155">重新检测权限</text>
-    <text x="620" y="220" font-size="13" fill="#334155">重新加载配置</text>
-    <text x="620" y="244" font-size="13" fill="#334155">打开配置文件…</text>
+    <rect x="614" y="158" width="242" height="24" rx="6" fill="#ECFDF5"/>
+    <text x="620" y="175" font-size="13" font-weight="600" fill="#0F766E">校准当前浏览器的标签栏…</text>
+    <text x="620" y="202" font-size="13" fill="#334155">重新加载配置</text>
+    <text x="620" y="226" font-size="13" fill="#334155">打开配置文件…</text>
 
-    <line x1="616" y1="258" x2="854" y2="258" stroke="#E6EDF3" stroke-width="1"/>
-    <text x="620" y="282" font-size="13" fill="#334155">退出</text>
-    <text x="830" y="282" text-anchor="end" font-size="12" fill="#94A3B8">⌘Q</text>
+    <line x1="616" y1="240" x2="854" y2="240" stroke="#E6EDF3" stroke-width="1"/>
+
+    <text x="620" y="264" font-size="13" fill="#334155">打开辅助功能设置…</text>
+    <text x="620" y="288" font-size="13" fill="#334155">重新检测权限</text>
+    <text x="620" y="312" font-size="13" fill="#334155">查看日志…</text>
+
+    <line x1="616" y1="326" x2="854" y2="326" stroke="#E6EDF3" stroke-width="1"/>
+
+    <text x="620" y="348" font-size="11" fill="#94A3B8">已适配 26 款浏览器</text>
+    <text x="620" y="364" font-size="11" fill="#94A3B8">版本 1.1.0</text>
+    <text x="620" y="386" font-size="13" fill="#334155">退出</text>
+    <text x="830" y="386" text-anchor="end" font-size="12" fill="#94A3B8">⌘Q</text>
   </g>
 
   <g font-family="-apple-system, 'PingFang SC', sans-serif">
     <text x="40" y="86" font-size="15" font-weight="600" fill="#0F172A">菜单栏小图标，点开就是全部控制项</text>
     <text x="40" y="116" font-size="13" fill="#64748B">无需主窗口，不占 Dock，随时可暂停或退出</text>
 
-    <rect x="40" y="146" width="230" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="40" y="146" width="250" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
     <text x="60" y="168" font-size="13" fill="#0F172A">⇥ 已启用</text>
     <text x="60" y="186" font-size="11" fill="#94A3B8">双击标签栏 → 关闭标签</text>
 
-    <rect x="40" y="212" width="230" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
-    <text x="60" y="234" font-size="13" fill="#0F172A">⇥ 已停用</text>
-    <text x="60" y="252" font-size="11" fill="#94A3B8">双击恢复浏览器原生行为</text>
+    <rect x="310" y="146" width="250" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="330" y="168" font-size="13" fill="#0F172A">⇥ 已停用</text>
+    <text x="330" y="186" font-size="11" fill="#94A3B8">双击恢复浏览器原生行为</text>
+
+    <rect x="40" y="214" width="520" height="52" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="60" y="236" font-size="13" fill="#0F172A">今日已关闭 12 个（累计 348）</text>
+    <text x="60" y="254" font-size="11" fill="#94A3B8">统计只存在本地 stats.json，不上传</text>
   </g>
 </svg>

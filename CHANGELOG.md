@@ -2,6 +2,30 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [1.1.0] - 2026-11-05
+
+### 新增
+
+- **一键校准标签栏**：菜单点「校准当前浏览器的标签栏…」，在标签栏上双击一次，自动测出该浏览器的标签栏位置并写入配置。任意浏览器、任意标签栏布局（如 Safari 的独立/紧凑模式）都能一次对准，不再需要看日志手算像素
+- **未适配的浏览器也能校准**：校准会为当前前台浏览器自动生成新配置项（Thorium、Sidekick、360、QQ 等）
+- **关闭统计**：菜单显示「今日已关闭 N 个（累计 M）」，数据只存本地 `stats.json`
+- **26 款浏览器开箱即用**：新增 Arc、Opera / Opera GX、Chromium、Chrome Beta/Dev、Edge Beta/Dev/Canary、Brave Beta/Nightly、Opera Beta、Firefox Developer/Nightly、Safari Technology Preview、Orion、Zen、DuckDuckGo
+- **全局设置 `_settings`**：`cooldown`（关闭冷却时间）与 `sound`（关闭提示音）可配置
+- **日志自动轮转**：超过 512 KB 自动转存为 `.log.1`，长期常驻不再无限增长
+- **Universal 二进制**：CI 产出 arm64 + x86_64 通用包，Intel Mac 免编译直接用
+- 菜单增强：显示当前前台浏览器的适配状态与标签栏参数、「查看日志…」入口
+- 「参数不准怎么办」排障路径更新为：先校准，再手调
+
+### 变更
+
+- Safari 默认参数改为 `tabHeight 42 / leftInset 78`（独立标签栏布局请用一键校准，一次到位）
+- 已有用户的 `config.json` 完全兼容，升级后新增浏览器自动并入，无需改动
+
+### 已知限制
+
+- 双击「+」新建标签按钮时，会先建一个标签再被关闭
+- Chrome 中双击标签栏空白处会同时触发"新建标签"
+
 ## [1.0.0] - 2026-11-05
 
 首个公开版本。

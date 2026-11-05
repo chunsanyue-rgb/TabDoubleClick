@@ -1,14 +1,36 @@
 {
+  "_settings": {
+    "cooldown": 0.4,
+    "sound": false
+  },
   "com.apple.Safari": {
     "allowFullscreen": false,
-    "leftInset": 12,
+    "leftInset": 78,
     "name": "Safari",
-    "tabHeight": 88
+    "tabHeight": 42
+  },
+  "com.apple.SafariTechnologyPreview": {
+    "allowFullscreen": false,
+    "leftInset": 78,
+    "name": "Safari TP",
+    "tabHeight": 42
   },
   "com.brave.Browser": {
     "allowFullscreen": true,
     "leftInset": 80,
     "name": "Brave",
+    "tabHeight": 40
+  },
+  "com.brave.Browser.beta": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Brave Beta",
+    "tabHeight": 40
+  },
+  "com.brave.Browser.nightly": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Brave Nightly",
     "tabHeight": 40
   },
   "com.citrolabs.ego.lite": {
@@ -17,10 +39,22 @@
     "name": "ego lite",
     "tabHeight": 40
   },
+  "com.duckduckgo.macos.browser": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "DuckDuckGo",
+    "tabHeight": 44
+  },
   "com.google.Chrome": {
     "allowFullscreen": true,
     "leftInset": 80,
     "name": "Chrome",
+    "tabHeight": 40
+  },
+  "com.google.Chrome.beta": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Chrome Beta",
     "tabHeight": 40
   },
   "com.google.Chrome.canary": {
@@ -29,10 +63,58 @@
     "name": "Chrome Canary",
     "tabHeight": 40
   },
+  "com.google.Chrome.dev": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Chrome Dev",
+    "tabHeight": 40
+  },
+  "com.kagi.kagimacOS": {
+    "allowFullscreen": false,
+    "leftInset": 78,
+    "name": "Orion",
+    "tabHeight": 42
+  },
   "com.microsoft.edgemac": {
     "allowFullscreen": true,
     "leftInset": 80,
     "name": "Edge",
+    "tabHeight": 40
+  },
+  "com.microsoft.edgemac.Beta": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Edge Beta",
+    "tabHeight": 40
+  },
+  "com.microsoft.edgemac.Canary": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Edge Canary",
+    "tabHeight": 40
+  },
+  "com.microsoft.edgemac.Dev": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Edge Dev",
+    "tabHeight": 40
+  },
+  "com.operasoftware.Opera": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Opera",
+    "tabHeight": 40
+  },
+  "com.operasoftware.OperaGX": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Opera GX",
+    "tabHeight": 40
+  },
+  "com.operasoftware.OperaNext": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Opera Beta",
     "tabHeight": 40
   },
   "com.vivaldi.Vivaldi": {
@@ -41,10 +123,40 @@
     "name": "Vivaldi",
     "tabHeight": 40
   },
+  "company.thebrowser.Browser": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Arc",
+    "tabHeight": 44
+  },
+  "io.github.zen_browser.zen": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Zen",
+    "tabHeight": 46
+  },
+  "org.chromium.Chromium": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Chromium",
+    "tabHeight": 40
+  },
   "org.mozilla.firefox": {
     "allowFullscreen": true,
     "leftInset": 78,
     "name": "Firefox",
+    "tabHeight": 42
+  },
+  "org.mozilla.firefoxdeveloperedition": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Firefox Developer",
+    "tabHeight": 42
+  },
+  "org.mozilla.nightly": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Firefox Nightly",
     "tabHeight": 42
   }
 }

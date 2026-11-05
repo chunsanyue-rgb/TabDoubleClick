@@ -1,7 +1,7 @@
 APP_NAME    := TabDoubleClick
 BUILD_DIR   := build
 APP_BUNDLE  := $(BUILD_DIR)/$(APP_NAME).app
-VERSION     := 1.0.0
+VERSION     := 1.1.0
 INSTALL_DIR := $(HOME)/Applications
 DIST_DIR    := dist
 
