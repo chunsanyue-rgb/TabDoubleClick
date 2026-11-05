@@ -20,8 +20,9 @@
 ![Size](https://img.shields.io/badge/体积-约%20150%20KB-14B8A6?style=flat-square)
 ![Network](https://img.shields.io/badge/不联网-零上报-0F766E?style=flat-square)
 ![PRs](https://img.shields.io/badge/PRs-welcome-14B8A6?style=flat-square)
+[![Author](https://img.shields.io/badge/作者-chunsanyue-14B8A6?style=flat-square&logo=github&logoColor=white)](https://github.com/chunsanyue-rgb)
 
-[功能特性](#-功能特性) · [演示](#-效果) · [安装](#-安装) · [首次授权](#-首次授权必看) · [配置](#-配置) · [FAQ](#-常见问题) · [原理](#-工作原理)
+[功能特性](#-功能特性) · [演示](#-效果) · [安装](#-安装) · [首次授权](#-首次授权必看) · [配置](#-配置) · [FAQ](#-常见问题) · [原理](#-工作原理) · [作者](#-作者)
 
 </div>
 
@@ -460,15 +461,56 @@ CI 会在每次 push 时于 `macos-latest` 上完整编译、校验签名并产�
 
 ---
 
+## 👤 作者
+
+<div align="center">
+
+<a href="https://github.com/chunsanyue-rgb">
+  <img src="https://github.com/chunsanyue-rgb.png" width="96" height="96" alt="chunsanyue">
+</a>
+
+### chunsanyue
+
+<sub>把「用着不顺手」改成「顺手」的人</sub>
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-chunsanyue--rgb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chunsanyue-rgb)
+[![Stars](https://img.shields.io/github/stars/chunsanyue-rgb/TabDoubleClick?style=for-the-badge&color=14B8A6&label=Stars)](https://github.com/chunsanyue-rgb/TabDoubleClick/stargazers)
+[![Issues](https://img.shields.io/github/issues/chunsanyue-rgb/TabDoubleClick?style=for-the-badge&color=14B8A6)](https://github.com/chunsanyue-rgb/TabDoubleClick/issues)
+
+</div>
+
+这个项目起因于一个很具体的小别扭：在 macOS 上换了十几个浏览器，**没有一款**能像 360、QQ 浏览器那样双击标签就关掉，扩展 API 又碰不到标签栏。既然没有，那就自己写一个——于是有了这个 100 KB 的菜单栏小工具。
+
+| 项目 | 信息 |
+| --- | --- |
+| 作者 | **chunsanyue** |
+| GitHub | [@chunsanyue-rgb](https://github.com/chunsanyue-rgb) |
+| 项目主页 | [chunsanyue-rgb/TabDoubleClick](https://github.com/chunsanyue-rgb/TabDoubleClick) |
+| 问题反馈 | [Issues](https://github.com/chunsanyue-rgb/TabDoubleClick/issues/new) — 提之前建议先看一眼 [FAQ](#-常见问题) |
+| 开源协议 | [MIT](LICENSE)（含[中文参考译文](LICENSE)）© 2026 chunsanyue |
+| 使用成本 | 免费、无广告、不联网、零上报 |
+
+> 想加新的浏览器适配、或者遇到双击没反应，直接在 Issues 里说清楚**浏览器名字 + 版本 + 日志最后几行**（`tail -20 ~/Library/Logs/TabDoubleClick.log`），一般都能很快定位。
+
+---
+
 ## 📄 License
 
-[MIT](LICENSE) © 2026 TabDoubleClick contributors
+本项目基于 [MIT 许可证](LICENSE) 开源 © 2026 **chunsanyue**
+
+- 英文原文具有法律效力，中文译文仅供阅读参考（两者在同一份 [LICENSE](LICENSE) 中）
+- 你可以自由使用、修改、分发、商用，**保留版权声明即可**
+- 软件按「原样」提供，不附带任何担保
 
 ---
 
 <div align="center">
 
 **如果这个小工具帮你省下了每天几十次的 `⌘W`，点个 ⭐️ 就是最好的支持**
+
+<sub>Made with ☕ by <a href="https://github.com/chunsanyue-rgb">chunsanyue</a> · MIT License</sub>
 
 <sub>本项目与 Google、Apple、Citro Labs 等公司无任何关联。</sub>
 

@@ -71,6 +71,43 @@ make uninstall  # remove
 
 Requires Xcode Command Line Tools (`xcode-select --install`). CI builds on `macos-latest` and publishes releases on `v*` tags.
 
+## Author
+
+<div align="center">
+
+<a href="https://github.com/chunsanyue-rgb">
+  <img src="https://github.com/chunsanyue-rgb.png" width="96" height="96" alt="chunsanyue">
+</a>
+
+### chunsanyue
+
+<sub>Someone who turns "annoying to use" into "just works"</sub>
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-chunsanyue--rgb-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chunsanyue-rgb)
+[![Issues](https://img.shields.io/github/issues/chunsanyue-rgb/TabDoubleClick?style=for-the-badge&color=14B8A6)](https://github.com/chunsanyue-rgb/TabDoubleClick/issues)
+
+</div>
+
+| | |
+| --- | --- |
+| Author | **chunsanyue** |
+| GitHub | [@chunsanyue-rgb](https://github.com/chunsanyue-rgb) |
+| Repository | [chunsanyue-rgb/TabDoubleClick](https://github.com/chunsanyue-rgb/TabDoubleClick) |
+| Feedback | [Issues](https://github.com/chunsanyue-rgb/TabDoubleClick/issues/new) |
+| License | [MIT](LICENSE) © 2026 chunsanyue |
+
 ## License
 
-[MIT](LICENSE)
+Released under the [MIT License](LICENSE) © 2026 **chunsanyue**.
+
+The Chinese reference translation is included in the same [LICENSE](LICENSE) file; the English text is authoritative.
+
+---
+
+<div align="center">
+
+<sub>Made with ☕ by <a href="https://github.com/chunsanyue-rgb">chunsanyue</a> · MIT License</sub>
+
+</div>
