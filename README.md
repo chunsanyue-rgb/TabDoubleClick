@@ -429,7 +429,8 @@ TabDoubleClick/
 ├── docs/                           # README 配图（SVG）
 ├── .github/workflows/build.yml     # CI：自动编译 + tag 时发布 Release
 ├── Makefile                        # make build / install / dist / uninstall
-└── LICENSE
+├── LICENSE                         # MIT（英文原文）
+└── LICENSE.zh-CN.md                # MIT 中文参考译文
 ```
 
 ---
@@ -489,7 +490,7 @@ CI 会在每次 push 时于 `macos-latest` 上完整编译、校验签名并产�
 | GitHub | [@chunsanyue-rgb](https://github.com/chunsanyue-rgb) |
 | 项目主页 | [chunsanyue-rgb/TabDoubleClick](https://github.com/chunsanyue-rgb/TabDoubleClick) |
 | 问题反馈 | [Issues](https://github.com/chunsanyue-rgb/TabDoubleClick/issues/new) — 提之前建议先看一眼 [FAQ](#-常见问题) |
-| 开源协议 | [MIT](LICENSE)（含[中文参考译文](LICENSE)）© 2026 chunsanyue |
+| 开源协议 | [MIT](LICENSE) · 英文原文 / [中文参考译文](LICENSE.zh-CN.md) © 2026 chunsanyue |
 | 使用成本 | 免费、无广告、不联网、零上报 |
 
 > 想加新的浏览器适配、或者遇到双击没反应，直接在 Issues 里说清楚**浏览器名字 + 版本 + 日志最后几行**（`tail -20 ~/Library/Logs/TabDoubleClick.log`），一般都能很快定位。
@@ -500,7 +501,8 @@ CI 会在每次 push 时于 `macos-latest` 上完整编译、校验签名并产�
 
 本项目基于 [MIT 许可证](LICENSE) 开源 © 2026 **chunsanyue**
 
-- 英文原文具有法律效力，中文译文仅供阅读参考（两者在同一份 [LICENSE](LICENSE) 中）
+- 授权条款：[LICENSE](LICENSE)（英文原文，具法律效力）
+- 中文译文：[LICENSE.zh-CN.md](LICENSE.zh-CN.md)（仅供参考，如有歧义以英文原文为准）
 - 你可以自由使用、修改、分发、商用，**保留版权声明即可**
 - 软件按「原样」提供，不附带任何担保
 

@@ -7,7 +7,7 @@
 ### 文档
 
 - 署名作者 **chunsanyue**（[@chunsanyue-rgb](https://github.com/chunsanyue-rgb)）：README 新增「作者」章节，头部徽章与页脚同步标注
-- **LICENSE 增加中文参考译文**（英文原文仍为法律效力文本），README 的 License 章节说明使用范围
+- **新增中文版许可证** `LICENSE.zh-CN.md`（MIT 中文参考译文 + 大白话说明），`LICENSE` 保持英文原文以通过 GitHub 的协议识别
 - `Info.plist` 新增 `NSHumanReadableCopyright`，安装包的「显示简介」中可见版权信息
 
 ## [1.1.0] - 2026-11-05

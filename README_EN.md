@@ -96,13 +96,13 @@ Requires Xcode Command Line Tools (`xcode-select --install`). CI builds on `maco
 | GitHub | [@chunsanyue-rgb](https://github.com/chunsanyue-rgb) |
 | Repository | [chunsanyue-rgb/TabDoubleClick](https://github.com/chunsanyue-rgb/TabDoubleClick) |
 | Feedback | [Issues](https://github.com/chunsanyue-rgb/TabDoubleClick/issues/new) |
-| License | [MIT](LICENSE) © 2026 chunsanyue |
+| License | [MIT](LICENSE) © 2026 chunsanyue · [中文译文](LICENSE.zh-CN.md) |
 
 ## License
 
 Released under the [MIT License](LICENSE) © 2026 **chunsanyue**.
 
-The Chinese reference translation is included in the same [LICENSE](LICENSE) file; the English text is authoritative.
+A Chinese reference translation is available at [LICENSE.zh-CN.md](LICENSE.zh-CN.md); the English text is authoritative.
 
 ---
 
