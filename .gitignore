@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# 构建产物
+build/
+dist/
+*.app
+*.zip
+
+# 签名 / 私钥（切勿提交）
+*.pem
+*.p12
+*.cer
+*.mobileprovision
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

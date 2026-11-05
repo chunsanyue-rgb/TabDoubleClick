@@ -1,0 +1,59 @@
+name: build
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: 编译并打包
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 显示环境
+        run: |
+          sw_vers
+          swiftc --version
+          uname -m
+
+      - name: 编译
+        run: make build
+
+      - name: 校验签名与可执行性
+        run: |
+          codesign -dv build/TabDoubleClick.app
+          file build/TabDoubleClick.app/Contents/MacOS/TabDoubleClick
+          plutil -lint build/TabDoubleClick.app/Contents/Info.plist
+
+      - name: 打包 zip
+        run: make dist
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: TabDoubleClick-app
+          path: dist/*.zip
+          if-no-files-found: error
+
+  release:
+    name: 发布 Release
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: macos-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 编译并打包
+        run: make build dist
+
+      - name: 上传到 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true

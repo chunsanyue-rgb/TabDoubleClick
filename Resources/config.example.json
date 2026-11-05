@@ -1,0 +1,50 @@
+{
+  "com.apple.Safari": {
+    "allowFullscreen": false,
+    "leftInset": 12,
+    "name": "Safari",
+    "tabHeight": 88
+  },
+  "com.brave.Browser": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Brave",
+    "tabHeight": 40
+  },
+  "com.citrolabs.ego.lite": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "ego lite",
+    "tabHeight": 40
+  },
+  "com.google.Chrome": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Chrome",
+    "tabHeight": 40
+  },
+  "com.google.Chrome.canary": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Chrome Canary",
+    "tabHeight": 40
+  },
+  "com.microsoft.edgemac": {
+    "allowFullscreen": true,
+    "leftInset": 80,
+    "name": "Edge",
+    "tabHeight": 40
+  },
+  "com.vivaldi.Vivaldi": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Vivaldi",
+    "tabHeight": 40
+  },
+  "org.mozilla.firefox": {
+    "allowFullscreen": true,
+    "leftInset": 78,
+    "name": "Firefox",
+    "tabHeight": 42
+  }
+}
