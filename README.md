@@ -12,6 +12,8 @@
 
 ![Platform](https://img.shields.io/badge/macOS-12%2B-000000?style=flat-square&logo=apple&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat-square&logo=swift&logoColor=white)
+![Release](https://img.shields.io/github/v/release/chunsanyue-rgb/TabDoubleClick?style=flat-square&color=14B8A6)
+![Downloads](https://img.shields.io/github/downloads/chunsanyue-rgb/TabDoubleClick/total?style=flat-square&color=14B8A6)
 ![License](https://img.shields.io/badge/License-MIT-14B8A6?style=flat-square)
 ![Size](https://img.shields.io/badge/体积-约%20100%20KB-14B8A6?style=flat-square)
 ![Network](https://img.shields.io/badge/不联网-零上报-0F766E?style=flat-square)
