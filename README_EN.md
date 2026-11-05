@@ -98,6 +98,16 @@ Requires Xcode Command Line Tools (`xcode-select --install`). CI builds on `maco
 | Feedback | [Issues](https://github.com/chunsanyue-rgb/TabDoubleClick/issues/new) |
 | License | [MIT](LICENSE) © 2026 chunsanyue · [中文译文](LICENSE.zh-CN.md) |
 
+## Disclaimer
+
+Short version: **hobby project, no warranty, use at your own risk.** Full text: [DISCLAIMER.md](DISCLAIMER.md).
+
+- Tab detection is heuristic (mouse position + window geometry) — the app **may close a tab you did not intend to close**, and unsaved content in it may be lost
+- Requires Accessibility permission solely to read the frontmost window frame and send `⌘W`; **no network, no account, no telemetry**, logs stay local
+- **Not affiliated** with Google, Apple, Microsoft, Mozilla or Citro Labs; all trademarks belong to their owners
+- Install only on devices you are authorised to control — never for covert monitoring or remote control of someone else's machine
+- The author and contributors are **not liable** for any damages, including data loss; if you disagree, stop using and delete the app
+
 ## License
 
 Released under the [MIT License](LICENSE) © 2026 **chunsanyue**.

@@ -20,9 +20,11 @@
 ![Size](https://img.shields.io/badge/体积-约%20150%20KB-14B8A6?style=flat-square)
 ![Network](https://img.shields.io/badge/不联网-零上报-0F766E?style=flat-square)
 ![PRs](https://img.shields.io/badge/PRs-welcome-14B8A6?style=flat-square)
+![OpenSource](https://img.shields.io/badge/100%25-开源-14B8A6?style=flat-square&logo=opensourceinitiative&logoColor=white)
 [![Author](https://img.shields.io/badge/作者-chunsanyue-14B8A6?style=flat-square&logo=github&logoColor=white)](https://github.com/chunsanyue-rgb)
+[![Disclaimer](https://img.shields.io/badge/免责声明-必读-DC2626?style=flat-square)](DISCLAIMER.md)
 
-[功能特性](#-功能特性) · [演示](#-效果) · [安装](#-安装) · [首次授权](#-首次授权必看) · [配置](#-配置) · [FAQ](#-常见问题) · [原理](#-工作原理) · [作者](#-作者)
+[功能特性](#-功能特性) · [演示](#-效果) · [安装](#-安装) · [首次授权](#-首次授权必看) · [配置](#-配置) · [FAQ](#-常见问题) · [原理](#-工作原理) · [作者](#-作者) · [免责声明](#-免责声明)
 
 </div>
 
@@ -430,7 +432,8 @@ TabDoubleClick/
 ├── .github/workflows/build.yml     # CI：自动编译 + tag 时发布 Release
 ├── Makefile                        # make build / install / dist / uninstall
 ├── LICENSE                         # MIT（英文原文）
-└── LICENSE.zh-CN.md                # MIT 中文参考译文
+├── LICENSE.zh-CN.md                # MIT 中文参考译文
+└── DISCLAIMER.md                   # 免责声明（中英）
 ```
 
 ---
@@ -494,6 +497,26 @@ CI 会在每次 push 时于 `macos-latest` 上完整编译、校验签名并产�
 | 使用成本 | 免费、无广告、不联网、零上报 |
 
 > 想加新的浏览器适配、或者遇到双击没反应，直接在 Issues 里说清楚**浏览器名字 + 版本 + 日志最后几行**（`tail -20 ~/Library/Logs/TabDoubleClick.log`），一般都能很快定位。
+
+---
+
+## 🚨 免责声明
+
+> 完整条款见 [DISCLAIMER.md](DISCLAIMER.md)。继续使用即视为已阅读并接受。
+
+本软件是**个人开源项目**，按 MIT 协议以「现状」（AS IS）提供，**不附带任何担保**。用之前请先知道这几件事：
+
+| 你可能关心 | 实际情况 |
+| --- | --- |
+| 会不会误关标签 | **会**。判定依据是「鼠标位置 + 窗口几何」的启发式规则，浏览器改版、窗口缩放、多显示器、全屏模式下都可能偏移 |
+| 会不会丢数据 | 有可能。被误关的标签里若有未保存的表单/编辑内容，可能找不回来 |
+| 要什么权限、看什么数据 | 仅需「辅助功能」，只用来取前台窗口位置 + 发 `⌘W`；**不联网、无账号、无遥测、不读网页、不记键盘**，日志只存本地 |
+| 和官方有关系吗 | 没有。与 Google、Apple、Microsoft、Mozilla、Citro Labs 无任何隶属、赞助或背书关系，所有商标归各自所有者 |
+| 能装到别人电脑上吗 | **不能**。只能用于你有权操作的设备，严禁隐蔽安装、监控他人或远程操控他人电脑 |
+| 出问题谁负责 | **你自己**。作者与贡献者不承担任何直接/间接损失（含数据丢失、工作中断、设备损坏）的责任 |
+| 唯一救济 | 停止使用并删除本软件 |
+
+**如果你不同意以上任何一条，请立即停止使用并删除本软件。**
 
 ---
 

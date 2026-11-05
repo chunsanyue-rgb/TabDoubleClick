@@ -9,6 +9,7 @@
 - 署名作者 **chunsanyue**（[@chunsanyue-rgb](https://github.com/chunsanyue-rgb)）：README 新增「作者」章节，头部徽章与页脚同步标注
 - **新增中文版许可证** `LICENSE.zh-CN.md`（MIT 中文参考译文 + 大白话说明），`LICENSE` 保持英文原文以通过 GitHub 的协议识别
 - `Info.plist` 新增 `NSHumanReadableCopyright`，安装包的「显示简介」中可见版权信息
+- **新增 `DISCLAIMER.md` 免责声明**（中英双语 8 条：性质说明、使用风险、权限与隐私、合规使用、责任限制、第三方商标、变更条款），README 增加「🚨 免责声明」摘要表与导航入口，头部徽章标注「100% 开源」「免责声明·必读」
 
 ## [1.1.0] - 2026-11-05
 
